@@ -2,8 +2,8 @@
 
     $connection = mysqli_connect("localhost", "root", "", "formbasic");
 
-    $nome = preg_replace($_POST['nome']);
-    $telefone = preg_replace($_POST['telefone']);
+    $nome = preg_replace("", "", $_POST['nome']);
+    $telefone = preg_replace("", "", $_POST['telefone']);
     
     $sql = "insert into cadastro (nome, telefone) values ('$nome', '$telefone')";
 
