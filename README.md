@@ -1,2 +1,2 @@
 # PHPcadastro
-Cadastro simples com a linguagem PHP utilizada.
+Cadastro simples com as linguagem PHP, HTML e SQL utilizada.
